@@ -1,6 +1,6 @@
 ﻿namespace AddressBook
 {
-    public class Program
+    public class AddressBook1
     {
         public static void Main(String[] args)
         {
