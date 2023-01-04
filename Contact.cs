@@ -5,29 +5,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddressBookProgram
+namespace AddressBook
 {
-    public class Contact
+    public class Contacts
     {
-        public string FirstName;
-        public string LastName;
-        public string Address;
-        public string City;
-        public string State;
-        public string Zip;
-        public string PhoneNumber;
-        public string Email;
-        public Contact(string FirstName, string LastName, string Address, string City, string State, string Zip, string PhoneNumber, string Email)
-        {
-            this.FirstName = FirstName;
-            this.LastName = LastName;
-            this.Address = Address;
-            this.City = City;
-            this.State = State;
-            this.Zip = Zip;
-            this.PhoneNumber = PhoneNumber;
-            this.Email = Email;
-        }
+        public string First_name { get; set; }
+        public string Last_name { get; set; }
 
+        public string Address { get; set; }
+        public string State { get; set; }
+
+        public string City { get; set; }
+
+        public int Zip { get; set; }
+        public long Phone_number { get; set; }
+
+        public string Email { get; set; }
     }
+
 }
